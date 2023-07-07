@@ -3,7 +3,9 @@ from flask_cors import CORS,cross_origin
 import requests
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
+import pymongo
 import logging
+
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
 
 app = Flask(__name__)
@@ -72,6 +74,13 @@ def index():
                           "Comment": custComment}
                 reviews.append(mydict)
             logging.info("log my final result {}".format(reviews))
+            client = pymongo.MongoClient("mongodb+srv://shivajisowsare:shivajisowsare@cluster0.vahja6m.mongodb.net/?retryWrites=true&w=majority")
+            db = client["Scrap_review"]
+            review_col = db["data_review_scrap"]
+            review_col.insert_many(reviews)
+
+
+
             return render_template('result.html', reviews=reviews[0:(len(reviews)-1)])
         except Exception as e:
             logging.info(e)

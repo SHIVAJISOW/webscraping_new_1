@@ -5386,3 +5386,20 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.28:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [07/Jul/2023 16:49:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [07/Jul/2023 16:49:02] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [07/Jul/2023 16:49:02] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [07/Jul/2023 16:49:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iqooz6pro', 'Name': 'Pritish  Biswas ', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Osm'}, {'Product': 'iqooz6pro', 'Name': 'Sethu Sethu', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'GoodWant more updates'}, {'Product': 'iqooz6pro', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Good Product,Excellent Performance'}, {'Product': 'iqooz6pro', 'Name': 'Tiger Kumar', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Nice iqoo z6 pro i'}, {'Product': 'iqooz6pro', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Top'}, {'Product': 'iqooz6pro', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'So good and so nice mobile and best gaming phone'}, {'Product': 'iqooz6pro', 'Name': 'Jafar sayyed', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Good gaming phone'}, {'Product': 'iqooz6pro', 'Name': 'Sairaj Vinod Joshi', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Good smart phone'}, {'Product': 'iqooz6pro', 'Name': 'VENKYNANI', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'FAN OF THIS PRODUCTReally God level'}, {'Product': 'iqooz6pro', 'Name': 'Hari Prakash.S', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Super Performance'}, {'Product': 'iqooz6pro', 'Name': 'Hari Prakash.S', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Super Performance'}]
+INFO:werkzeug:172.18.0.2 - - [07/Jul/2023 16:49:39] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [07/Jul/2023 16:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [07/Jul/2023 16:49:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
